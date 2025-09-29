@@ -6,9 +6,17 @@ It uses **JavaScript modules**, **hash-based routing**, and **LocalStorage/Sessi
 ---
 
 ## 🌐 Live Demo & Repository
-- **Live Website:** [Deployed App Link](https://e-commerce-iti-delta.vercel.app/)  
-- **GitHub Repository:** [GitHub Repo Link](https://e-commerce-iti-delta.vercel.app/)  
+- **Live Website:** [Deployed App Link](ayaam-ecom.vercel.app)
+- 
+Login as admin : {"email":osama@example.com ,
+                 "Passowrd":123456 }
 
+Login as seller :{"email":azzasallam@example.com ,
+                 "Passowrd":123456 }
+
+Login as cutomer :{"email":azza@example.com ,
+                 "Passowrd":123456 } 
+                 or just browse as guest
 
 ---
 
