@@ -11,7 +11,7 @@ export const fakeCards = [
     cardNumber: "4000500060007002",
     expDate: "11/27",
     cvv: "456",
-    balance: 0     // no balance enugh
+    balance: 0   
   } ,
   
 ];
