@@ -6,7 +6,7 @@ It uses **JavaScript modules**, **hash-based routing**, and **LocalStorage/Sessi
 ---
 
 ## 🌐 Live Demo & Repository
-- **Live Website:** [Deployed App Link](ayaam-ecom.vercel.app)
+- **Live Website:**  https://ayaam-ecom.vercel.app/#/home
 - 
 Login as admin : {"email":osama@example.com ,
                  "Passowrd":123456 }
