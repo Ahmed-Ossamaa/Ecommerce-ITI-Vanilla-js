@@ -149,17 +149,17 @@ It supports different roles (**customer, seller, admin**) with role-based access
 ---
 
 ## 8. Team Contributions
-- **Yasser** → Authentication & Authorization (login, logout, roles, homepage)  
-- **Ahmed Beltagy** → Product Card, Catalog (filter system, search, single product page)  
+- **Yasser** → Authentication & Authorization 
+- **Ahmed Beltagy** → Product Card, Catalog 
 - **Azza** → Checkout page, Save orders, Order history  
-- **Mariam** → Seller Dashboard (add/edit/delete products, orders, sales history)  
-- **Ahmed Osama** → Admin Dashboard (manage users, CRUD products, reports)  
+- **Mariam** → Seller Dashboard  
+- **Ahmed Osama** → Admin Dashboard 
 
 ---
 
 ## 9. Resources & Links
-- **GitHub Repository:** [https://github.com/YasserFat7alah/e-commerce-iti.git](https://github.com/YasserFat7alah/e-commerce-iti.git)  
-- **Live Website:** [https://e-commerce-iti-delta.vercel.app/#/home](https://e-commerce-iti-delta.vercel.app/#/home)  
+- **GitHub Repository:** 
+- **Live Website:** 
 
 ---
 
