@@ -1,0 +1,140 @@
+@import url(design.sys.css);
+
+/* === Sales History Dashboard Styles with Specialized Selector === */
+.sales-history {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sales-history[data-theme="light"] {
+    background-color: var(--bgcolor-1); /* Light: #ffffff */
+    color: var(--grey-7); /* Light: #3d3d3d */
+}
+
+.sales-history[data-theme="dark"] {
+    background-color: var(--bgcolor-2); /* Dark: #111827 */
+    color: var(--grey-2); /* Dark: #a3a3a3 */
+}
+
+.sales-history .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.sales-history .menu-toggle {
+    background-color: var(--primary-5);
+    color: var(--bgcolor-1);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sales-history .menu-toggle:hover {
+    background-color: var(--primary-4);
+}
+
+/* Make "Sales History Dashboard" look nicer with statistical color */
+.sales-history h1 {
+    color: var(--primary-6);
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.sales-history .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.sales-history .stat {
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.sales-history .stat:hover {
+    transform: translateY(-5px);
+}
+
+.sales-history[data-theme="light"] .stat.best { background-color: var(--primary-1); } /* Light: #fff7ed */
+.sales-history[data-theme="dark"] .stat.best { background-color: var(--primary-6); } /* Dark: #c2410c */
+.sales-history[data-theme="light"] .stat.least { background-color: var(--primary-2); } /* Light: #ffedd5 */
+.sales-history[data-theme="dark"] .stat.least { background-color: var(--primary-5); } /* Dark: #ea580c */
+.sales-history[data-theme="light"] .stat.total { background-color: var(--primary-3); } /* Light: #fdba74 */
+.sales-history[data-theme="dark"] .stat.total { background-color: var(--primary-4); } /* Dark: #f97316 */
+
+.sales-history .stat div {
+    color: var(--primary-4);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sales-history .controls input {
+    padding: 8px 15px;
+    border: 1px solid var(--bgcolor-6);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.sales-history table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.sales-history th,
+.sales-history td {
+    padding: 15px;
+    border-bottom: 1px solid var(--bgcolor-6);
+    border-bottom: 1px solid var(--bgcolor-6); /* Light: #9ca3af, Dark: #6b7280 */
+}
+
+.sales-history th {
+    background-color: var(--primary-5);
+    color: var(--bgcolor-1);
+    font-weight: 600;
+}
+
+.sales-history .chart-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.sales-history .chart-card {
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.sales-history[data-theme="light"] .chart-card { background-color: var(--bgcolor-1); }
+.sales-history[data-theme="dark"] .chart-card { background-color: var(--bgcolor-2); }
+
+.sales-history .chart-card h3 {
+    color: var(--primary-4);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sales-history .chart-card canvas {
+    width: 100%;
+    height: auto;
+}

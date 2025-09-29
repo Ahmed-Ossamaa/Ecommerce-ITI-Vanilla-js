@@ -1,0 +1,67 @@
+@import url(design.sys.css);
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: var(--gray-3);
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+.discount {
+  color: var(--primary-4);
+  font-weight: bold;
+}
+
+.sizes span, .colors span {
+  display: inline-block;
+  padding: 5px 12px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.badge.bg-dark{
+  background-color: var(--brand) !important;
+}
+
+.sizes span:hover, .colors span:hover {
+  border-color: #000;
+}
+
+.btn-cart {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+#addToCartBtn{
+  color: white;
+  width: 12rem;
+}
+
+#backToCatalogBtn{
+  transition: all 0.4s ease;
+  width: 12rem;
+  border: 2px solid var(--primary-3);
+}
+
+#backToCatalogBtn:hover{
+  background-color: var(--primary-4);
+  color: white;
+}
+
+.outlineSingleProduct {
+  outline: none; 
+}
+
+.outlineSingleProduct:focus{
+  border-color: var(--primary-2);
+  box-shadow: 0 0 0 3px var(--primary-2);
+  outline: none;
+}

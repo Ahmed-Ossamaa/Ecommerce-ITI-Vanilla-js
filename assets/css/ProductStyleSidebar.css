@@ -1,0 +1,25 @@
+  @import url(design.sys.css);
+
+  .offcanvas {
+    background-color: var(--bgcolor-2); 
+    color: var(--primary-3);
+}
+
+.offcanvas .nav-link {
+    color: var(--primary-4);
+}
+
+.offcanvas .nav-link:hover, .offcanvas .nav-link.active {
+    background-color: var(--bgcolor-3);
+    color: var(--primary-5); 
+}
+
+.toggle-btn {
+    background-color: var(--primary-5);
+    color: var(--bgcolor-1);
+    border: none;
+}
+
+.toggle-btn:hover {
+    background-color: var(--primary-4); 
+}

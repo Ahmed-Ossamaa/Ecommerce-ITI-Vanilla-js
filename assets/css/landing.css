@@ -1,0 +1,138 @@
+@import url(./client/slider.css);
+
+
+
+
+
+
+@container style(--notify: true) {
+    .icon::after {
+        content: '';
+    }
+}
+
+#navbar .icon i,
+#navbar a {
+    color: rgb(59, 59, 59);
+    transition: color 0.5s ;
+
+}
+
+#navbar button:hover,
+#navbar button:hover i,
+#navbar a:hover ,
+#navbar a:hover i{
+    color: #f97316;
+}
+
+#navbar button:focus,
+#navbar button:focus i,
+#navbar a:focus,
+#navbar a:focus i{
+    background-color: rgba(249, 116, 22, 0.068) !important;
+}
+
+#locked *,
+#locked {
+    color: rgb(212, 212, 212) !important;
+}
+
+#locked *:hover,
+#locked:hover,
+#locked *:focus,
+#locked:focus {
+    color: rgb(212, 212, 212) !important;
+    background-color: #fff;
+    cursor: not-allowed;
+}
+
+#footer i {
+    color: rgb(185, 185, 185);
+    transition: color 0.5s;
+    
+}
+
+#footer a {
+    transition: color 0.5s;
+    color: #f5f2f9;
+}
+
+#footer i:hover,
+#footer a:hover {
+    color: #f97316 !important;
+}
+
+
+#footer h5 {
+    display: inline-block;
+    border-bottom: 1px solid #f97416 ;
+}
+
+
+/* HERO SECTION */
+#headCarousel .carousel-item {
+    height: 75vh;
+    /* Large banner */
+    min-height: 400px;
+    position: relative;
+}
+
+#headCarousel .carousel-item >a{
+    height: 100%;
+    width: 100%;
+}
+
+#headCarousel .carousel-item a img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+    /* darken background */
+}
+
+/* Center text in the middle */
+#headCarousel .carousel-data {
+    color: #f5f2f9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    align-items: center !important;
+    user-select: none;
+        text-align: center;
+}
+
+#headCarousel .carousel-data h1 {
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+}
+#headCarousel .carousel-data .btn {
+    border: 1px solid #f5f2f9;
+    width: 60% !important;
+    background-color: rgba(245, 242, 249, 0.13)
+}
+#headCarousel .carousel-data .btn:hover {
+    background-color: rgba(245, 242, 249, 0.178)!important;
+}
+
+/* Buttons */
+#headCarousel .carousel-data .btn {
+    width: auto;
+    padding: 0.6rem 1.5rem;
+    /* compact button */
+    font-size: 1rem;
+}
+
+
+
+/* Navbar-Search */
+#searchInput{
+    outline: none;
+}
+
+#searchInputIcon{
+    cursor: pointer;
+}
