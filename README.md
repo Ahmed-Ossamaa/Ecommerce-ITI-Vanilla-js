@@ -7,7 +7,8 @@ It uses **JavaScript modules**, **hash-based routing**, and **LocalStorage/Sessi
 
 ## 🌐 Live Demo & Repository
 - **Live Website:**  https://ayaam-ecom.vercel.app/#/home
-- 
+
+  
 Login as admin : {"email":osama@example.com ,
                  "Passowrd":123456 }
 
@@ -89,14 +90,14 @@ It supports different roles (**customer, seller, admin**) with role-based access
 ### 👤 User Example
 \`\`\`js
 {
-  id: 'yasser',
-  name: "Yasser",
-  email: "yasser@example.com",
+  id: 'AdminA',
+  name: "Ahmed Osama",
+  email: "osama@example.com",
   password: "123456",
-  role: "master", // master | admin | seller | user
-  phone: "01008348640",
+  role: "admin", // master | admin | seller | user
+  phone: "01554580561",
   status: "active",
-  joinDate: "2025-08-01"
+  joinDate: "2025-07-31"
 }
 \`\`\`
 
@@ -148,8 +149,7 @@ It supports different roles (**customer, seller, admin**) with role-based access
 ## 7. How to Run
 1. Clone repo:
    \`\`\`bash
-   git clone https://github.com/YasserFat7alah/e-commerce-iti.git
-   cd ayaam-ecommerce
+   git clone https://github.com/Ahmed-Ossamaa/Ecommerce-ITI-Vanilla-js.git
    \`\`\`
 2. Open \`index.html\` in your browser (no build needed).  
 3. Use \`Live Server\` in VSCode for SPA routing to work smoothly.  
@@ -163,12 +163,6 @@ It supports different roles (**customer, seller, admin**) with role-based access
 - **Mariam** → Seller Dashboard  
 - **Ahmed Osama** → Admin Dashboard 
 
----
 
-## 9. Resources & Links
-- **GitHub Repository:** 
-- **Live Website:** 
-
----
 
 ⚡ Built with ❤️ by **Team AYAAM**
